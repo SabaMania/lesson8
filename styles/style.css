@@ -2,3 +2,166 @@
 	width: 1640px;
 	margin: 0 auto;
 }
+/*header*/
+.logo {
+	margin-top: 52px;
+}
+.head {
+	display: flex;
+	justify-content: flex-end;
+}
+.navbar-li {
+	display: flex;
+	justify-content: flex-end;
+	color: #707070;
+	margin-top: -40px;
+}
+.lists {
+	margin-left: 100px;
+	font-size: 20px;
+}
+.search {
+	margin-left: 100px;
+	font-size: 30px;
+}
+
+/*section*/
+.background-img {
+	background-image: url('../images/img5.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-top: 60px;
+	width: 1640px;
+	height: 700px;
+}
+.main {
+	position: absolute;
+	right: 0;	
+	bottom: 0;
+}
+.white-bg {
+	background-color: white;
+	width: 674px;
+	height: 328px;
+	box-shadow: 1px 1px 6px black;
+}
+.title {
+	padding-top: 28px;
+	font-size: 40px;
+	width: 647px;
+	color: #707070;
+}
+.text {
+	font-size: 24px;
+	width: 611px;
+	padding: 34px 0 0 46px ;
+	color: #707070;
+}
+.arrow {
+	color: red;
+}
+.text1 {
+	padding: 40px 0 29px 147px;
+	font-size: 24px;
+	color: #707070;
+}
+/*section2*/
+.title1 {
+	font-size: 40px;
+	margin-top: 138px;
+	color: #707070;
+}
+.three {
+	display: flex;
+	justify-content: space-between;
+	}
+.article{
+	height: 563px;
+	width: 483px;
+	background-color: white;
+	margin: 70px 91px 56px 0;
+	box-shadow: 0 3px 6px #00000029;
+
+}
+.article:last-child {
+	margin-right: 0;
+}
+.img {
+	width: 483px;
+	height: 282px;
+}
+.minititle {
+	font-size: 30px;
+	color: #707070;
+	padding: 20px 0 0 12px;
+}
+.article-text {
+	color: #707070;
+	font-size: 18px;
+	padding: 33px 25px 0 12px;
+}
+.more {
+	font-size: 23px;
+	color: #707070;
+	padding: 73px 13px 0 0;
+	display: flex;
+	justify-content: flex-end;
+}
+.load {
+	width: 132px;
+	font-size: 30px;
+	color: #707070;
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid #707070;
+	margin-left: 700px;
+}
+
+/*footer*/
+.black-bg {
+	background-color: #2E2E2E;
+	height: 207px;
+}
+.logo2 {
+	margin-top: 56px;
+}
+.center {
+	display: flex;
+	justify-content: space-between;
+}
+.contact {
+	width: 138px;
+	height: 61px;
+	margin: 67px 0 0 90px;
+}
+.contact p {
+	color: white;
+}
+.size {
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+.address {
+	margin: 67px 0 0 90px;
+	width: 255px;
+	height: 43px;
+}
+.address p {
+	color: white;
+}
+.social {
+	margin-top: 83px;
+	font-size: 30px;
+	width: 44px;
+	height: 44px;
+	background-color: white; 
+	border-radius: 50%;
+
+}
+.fb-icon {
+	margin: 6px 0 0 10px;
+}
+.inst-icon {
+	margin: 6px 0 0 9px;
+}
