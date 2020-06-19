@@ -59,9 +59,14 @@
 	color: #707070;
 }
 .text1 {
-	padding: 40px 0 29px 147px;
+	display: flex;
+	justify-content: flex-start;
+	padding: 40px 0 29px 35px;
 	font-size: 24px;
 	color: #707070;
+}
+.arrow {
+	padding-right: 25px;
 }
 /*section2*/
 .title1 {
