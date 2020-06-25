@@ -174,3 +174,55 @@
 .inst-icon {
 	margin: 6px 0 0 9px;
 }
+/*index2.html*/
+.bg-img {
+	background-image: url('../images/map.png');
+	max-width: 1640px;
+	width: 100%;
+	height: 608px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 70px 0 50px 0;
+}
+form {
+	margin-left: 90px;
+}
+.form-wrapper {
+	max-width: 730px;
+	width: 100%;
+}
+.form-inside {
+	width: 100%;
+	margin-top: 12px;
+	padding: 15px 0 23px 25px;
+	border: none;
+	box-shadow: 0px 0px 6px #00000029;
+	font-size: 20px;
+	outline: none;
+}
+.form-group {
+	margin-bottom: 17px;
+}
+.lab {
+	font-size: 23px;
+	padding-left: 30px;
+}
+.send {
+	margin-bottom: 220px;
+	background-color: #2E2E2E;
+	color: white;
+	height: 45px;
+	width: 150px;
+	margin-top: 40px;
+	font-size: 21px;
+	border: none;
+}
+.textarea-group {
+	width: 100%;
+	height: 112px;
+	margin-top: 12px;
+	border: none;
+	outline: none;
+	box-shadow: 0px 0px 6px #00000029;
+	resize: none;
+}

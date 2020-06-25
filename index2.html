@@ -1,9 +1,82 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title></title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="styles/reset.css">
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+		<title>კონტაქტი</title>
 	</head>
 	<body>
+		<header class="container">
+			<a href="index.html">
+				<img class="logo" src="images/logo.PNG" alt="logo">
+			</a>
+			<div class="navbar">
+				<nav>
+					<ul class="navbar-li">
+						<li class="lists">პროექტის შესახებ</li>
+						<li class="lists">მოთხოვნები</li>
+						<a href="index2.html">
+							<li class="lists">კონტაქტი</li>
+						</a>
+						<li class="lists">შესვლა</li>	
+					</ul>
+				</nav>
+				<i class="fas fa-search search"></i>
+			</div>
+		</header>	
+		<section class="container">
+			<div class="bg-img"></div>
+			<div>
+				<form class="form-wrapper">
 
+					<div class="form-group" >
+						<label for="fname" class="lab">Name</label>
+						<input type="text" class="form-inside" name="firstname" id="fname" placeholder="...type your name">
+					</div>
+
+					<div class="form-group">
+						<label for="email" class="lab">E-mail</label>
+						<input type="text" class="form-inside" name="mail" id="email" placeholder="...type your e-mail">
+					</div>
+
+					<div class="form-group">
+						<label for="subject" class="lab">Subject</label>
+						<input type="text" class="form-inside" name="sub" id="subject" placeholder="...type the mail subject">
+					</div>
+
+					<div class="form-group" >
+						<label for="message" class="lab">Message</label>
+						<textarea class="textarea-group" id="message"></textarea>
+					</div>
+
+					<button type="submit" class="send">Send</button>
+				</form>
+			</div>
+		</section>
+		<footer class="black-bg">
+			<div class="container">
+				<div class="center">
+					<img class="logo2" src="images/logo2.PNG" alt="logo2">
+					<div class="contact">
+						<p class="size">კონტაქტი</p>
+						<p>+995 0322 38 08 02 info@lucapolare.com</p>
+					</div>
+					<div class="address">
+						<p class="size">მისამართი</p>
+						<p>მერაბ ალექსიძის ქუჩა 10, თბილისი</p>
+					</div>
+					<div class="social">
+					<i class="fab fa-facebook-f fb-icon"></i>				
+					</div>			
+					<div class="social">
+						<i class="fab fa-instagram inst-icon"></i>
+					</div>	
+				</div>
+			</div>
+		</footer>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"> </script>
 	</body>
 </html>
