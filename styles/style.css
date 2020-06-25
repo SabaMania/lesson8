@@ -187,6 +187,9 @@
 form {
 	margin-left: 90px;
 }
+a {
+	color: black;
+}
 .form-wrapper {
 	max-width: 730px;
 	width: 100%;
